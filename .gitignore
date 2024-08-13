@@ -1,0 +1,19 @@
+frontend_project/frontendapp/node_modules/
+frontend_project/frontendapp/package-lock.json
+
+
+# Ignore Django specific files and directories in the backend folder
+backend/backend/node_modules
+backend/backend/package-lock.json
+
+# Ignore shared ORM library specific files
+shared-orm-library/node_modules
+shared-orm-library/package-lock.json
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
